@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.com/Tomesyy/file-maker.svg?branch=master)](https://travis-ci.com/Tomesyy/file-maker)
