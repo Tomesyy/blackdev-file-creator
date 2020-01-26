@@ -1,0 +1,25 @@
+{
+  "name": "file-maker",
+  "version": "1.0.0",
+  "description": "A simple command line package for creating files",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomesyy/file-maker.git"
+  },
+  "keywords": [
+    "[\"file-maker\"",
+    "\"file-make\"",
+    "\"create-file\"",
+    "\"file\"]"
+  ],
+  "author": "Adetomiwa Adesanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomesyy/file-maker/issues"
+  },
+  "homepage": "https://github.com/Tomesyy/file-maker#readme"
+}
