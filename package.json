@@ -25,5 +25,10 @@
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "mocha-lcov-reporter": "^1.3.0",
+    "nyc": "^15.0.0"
   }
 }
