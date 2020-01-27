@@ -23,3 +23,11 @@ function createError(message){
     error.message = message;
     throw error;
 }
+
+function checkIfFileExists(file) {
+    fs.exists(filePath, (exists) => {
+        if(exists){
+            createError(`${file} already exists in path`);
+        }
+    })
+}
