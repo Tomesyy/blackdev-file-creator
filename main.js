@@ -4,10 +4,10 @@ const path = require('path');
 let args = process.argv;
 let [node, main, ...files ] = args;
 
-files.forEach(file => {
-    let filePath = path.join(__dirname + "/" + file);
-    checkIfFileExists(filePath);
-    writeFile(filePath);
+files.forEach(fileName => {
+    checkIfFileExists(fileName);
+    writeFile(fileName);
+    return fileName;
 })
 
 function resolvePath(file){
@@ -22,7 +22,8 @@ function createError(message){
 }
 
 function checkIfFileExists(file) {
-    fs.exists(file, (exists) => {
+    const filePath = resolvePath(file);
+    fs.exists(filePath, (exists) => {
         if(exists){
             createError(`${file} already exists in path`);
         }
@@ -30,7 +31,8 @@ function checkIfFileExists(file) {
 }
 
 function writeFile(file){
-    fs.writeFile(file, "", (err) => {
+    const filePath = resolvePath(file);
+    fs.writeFile(filePath, "", (err) => {
         if(err){
             createError('problem_creating_file');
         }

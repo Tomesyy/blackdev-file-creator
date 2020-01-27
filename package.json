@@ -1,5 +1,5 @@
 {
-  "name": "file-maker",
+  "name": "file-creator",
   "version": "1.0.0",
   "description": "A simple command line package for creating files",
   "main": "main.js",
@@ -15,8 +15,14 @@
     "[\"file-maker\"",
     "\"file-make\"",
     "\"create-file\"",
-    "\"file\"]"
+    "\"file-creator\"",
+    "\"file-create\"]"
   ],
+  "bin": {
+    "fc": "./main.js",
+    "cf": "./main.js",
+    "create": "./main.js"
+  },
   "author": "Adetomiwa Adesanya",
   "license": "ISC",
   "bugs": {
