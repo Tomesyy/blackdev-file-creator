@@ -1,8 +1,6 @@
 language: node_js
 node_js:
   - "8"
-notifications:
-  email: 
-    - @adetomiwaadesanya01@gmail.com
+cache: npm
 after_success:
   - npm run coverage
