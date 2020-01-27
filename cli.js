@@ -12,7 +12,8 @@ files.forEach(fileName => {
 })
 
 function resolvePath(file){
-    let filePath = path.join(__dirname + "/" + file);
+    let rootPath = path.resolve();
+    let filePath = rootPath+`/${file}`;
     return filePath;
 }
 
