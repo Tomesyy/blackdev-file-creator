@@ -4,3 +4,5 @@ node_js:
 notifications:
   email: 
     - @adetomiwaadesanya01@gmail.com
+after_success:
+  - npm run coverage
