@@ -19,7 +19,6 @@
     "\"file-create\"]"
   ],
   "bin": {
-    "fc": "./cli.js",
     "cf": "./cli.js",
     "create": "./cli.js"
   },
