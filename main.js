@@ -6,17 +6,14 @@ let [node, main, ...files ] = args;
 
 files.forEach(file => {
     let filePath = path.join(__dirname + "/" + file);
-    fs.exists(filePath, (exists) => {
-        if(exists){
-            createError(`${file} already exists in path`);
-        }
-        fs.writeFile(filePath, "", (err) => {
-            if(err){
-                createError('problem_creating_file');
-            }
-        })
-    })
+    checkIfFileExists(filePath);
+    writeFile(filePath);
 })
+
+function resolvePath(file){
+    let filePath = path.join(__dirname + "/" + file);
+    return filePath;
+}
 
 function createError(message){
     let error = new Error();
@@ -25,7 +22,7 @@ function createError(message){
 }
 
 function checkIfFileExists(file) {
-    fs.exists(filePath, (exists) => {
+    fs.exists(file, (exists) => {
         if(exists){
             createError(`${file} already exists in path`);
         }
