@@ -31,3 +31,11 @@ function checkIfFileExists(file) {
         }
     })
 }
+
+function writeFile(file){
+    fs.writeFile(file, "", (err) => {
+        if(err){
+            createError('problem_creating_file');
+        }
+    });
+}
