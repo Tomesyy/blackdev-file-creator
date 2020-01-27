@@ -1,8 +1,9 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 
-let args = process.argv;
-let [node, main, ...files ] = args;
+let [, , ...files ] = process.argv;
 
 files.forEach(fileName => {
     checkIfFileExists(fileName);

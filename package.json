@@ -2,7 +2,7 @@
   "name": "file-creator",
   "version": "1.0.0",
   "description": "A simple command line package for creating files",
-  "main": "main.js",
+  "main": "cli.js",
   "scripts": {
     "test": "mocha",
     "coverage": "nyc npm run test && nyc report --reporter=text-lcov | coveralls"
@@ -19,11 +19,11 @@
     "\"file-create\"]"
   ],
   "bin": {
-    "fc": "./main.js",
-    "cf": "./main.js",
-    "create": "./main.js"
+    "fc": "./cli.js",
+    "cf": "./cli.js",
+    "create": "./cli.js"
   },
-  "author": "Adetomiwa Adesanya",
+  "author": "Adetomiwa Adesanya (BlackDev)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tomesyy/file-maker/issues"
