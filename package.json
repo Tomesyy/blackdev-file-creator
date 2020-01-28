@@ -1,6 +1,6 @@
 {
   "name": "blackdev-file-creator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple command line package for creating files",
   "main": "cli.js",
   "scripts": {
@@ -11,12 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/Tomesyy/file-maker.git"
   },
-  "keywords": [
-    "[\"file-maker\"",
-    "\"file-make\"",
-    "\"create-file\"",
-    "\"file-creator\"",
-    "\"file-create\"]"
+  "keywords":[
+    "file-creator",
+    "create",
+    "file-maker",
+    "blackdev-file-creator",
+    "makefile",
+    "filemake"
   ],
   "bin": {
     "cf": "./cli.js",
@@ -28,11 +29,9 @@
     "url": "https://github.com/Tomesyy/file-maker/issues"
   },
   "homepage": "https://github.com/Tomesyy/file-maker#readme",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.0.1"
-  },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
     "coveralls": "^3.0.9",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^15.0.0"
