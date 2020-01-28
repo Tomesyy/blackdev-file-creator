@@ -1,6 +1,6 @@
 {
   "name": "blackdev-file-creator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple command line package for creating files",
   "main": "cli.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomesyy/file-maker.git"
+    "url": "git+https://github.com/Tomesyy/blackdev-file-creator.git"
   },
   "keywords": [
     "file-creator",
@@ -26,9 +26,9 @@
   "author": "Adetomiwa Adesanya (BlackDev)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tomesyy/file-maker/issues"
+    "url": "https://github.com/Tomesyy/blackdev-file-creator/issues"
   },
-  "homepage": "https://github.com/Tomesyy/file-maker#readme",
+  "homepage": "https://github.com/Tomesyy/blackdev-file-creator#readme",
   "devDependencies": {
     "chai": "^4.2.0",
     "coveralls": "^3.0.9",
