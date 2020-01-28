@@ -4,9 +4,8 @@
   "description": "A simple command line package for creating files",
   "main": "cli.js",
   "scripts": {
-    "test": "mocha",
-    "cov": "nyc npm run test",
-    "coverage": "nyc npm run test report --reporter=text-lcov | coveralls"
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -24,7 +23,7 @@
     "cf": "./cli.js",
     "create": "./cli.js"
   },
-  "author": "Adetomiwa Adesanya(BlackDev)",
+  "author": "Adetomiwa Adesanya (BlackDev)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tomesyy/file-maker/issues"
