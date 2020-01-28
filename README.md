@@ -1,7 +1,6 @@
 # blackdev-file-creator
 
 [![Build Status](https://travis-ci.com/Tomesyy/blackdev-file-creator.svg?branch=master)](https://travis-ci.com/Tomesyy/file-maker)
-[![Coverage Status](https://coveralls.io/repos/github/Tomesyy/file-maker/badge.svg?branch=master)](https://coveralls.io/github/Tomesyy/file-maker?branch=master)
 
 
 An npm package for creating files from the command line.
@@ -19,7 +18,7 @@ Npm: https://www.npmjs.com/package/blackdev-file-creator
 
 ## Usage
 
-files are created using either "create" or "cf" command 
+You can now create one or more files using the "create" or "cf" command.
 
 
 ```javascript
@@ -27,9 +26,9 @@ files are created using either "create" or "cf" command
 
     cf app.js // creates app.js in current directory
 
-    create testFile.txt hello.css index.html // creates the three files in the current directory
+    create app.js app.php app.py // creates the three files in the current directory
 
-    cf testFile.txt hello.css index.html // creates the three files in the current directory
+    cf app.js app.php app.py // creates the three files in the current directory
 
 ```
 
