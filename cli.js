@@ -38,5 +38,12 @@ function writeFile(file){
         if(err){
             createError('problem_creating_file');
         }
+        return file;
     });
+}
+
+
+module.exports = {
+    checkIfFileExists,
+    writeFile
 }

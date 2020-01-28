@@ -4,14 +4,14 @@
   "description": "A simple command line package for creating files",
   "main": "cli.js",
   "scripts": {
-    "test": "nyc mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "mocha test",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tomesyy/file-maker.git"
   },
-  "keywords":[
+  "keywords": [
     "file-creator",
     "create",
     "file-maker",
@@ -31,9 +31,8 @@
   "homepage": "https://github.com/Tomesyy/file-maker#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.0.1",
     "coveralls": "^3.0.9",
-    "mocha-lcov-reporter": "^1.3.0",
+    "mocha": "^7.0.1",
     "nyc": "^15.0.0"
   }
 }
