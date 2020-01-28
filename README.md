@@ -1,6 +1,6 @@
 # blackdev-file-creator
 
-[![Build Status](https://travis-ci.com/Tomesyy/file-maker.svg?branch=master)](https://travis-ci.com/Tomesyy/file-maker)
+[![Build Status](https://travis-ci.com/Tomesyy/blackdev-file-creator.svg?branch=master)](https://travis-ci.com/Tomesyy/file-maker)
 [![Coverage Status](https://coveralls.io/repos/github/Tomesyy/file-maker/badge.svg?branch=master)](https://coveralls.io/github/Tomesyy/file-maker?branch=master)
 
 
